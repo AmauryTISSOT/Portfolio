@@ -14,6 +14,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  live_version,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -25,13 +26,18 @@ const ProjectCard = ({
         }}
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
       >
-        <div className="relative w-full h-[230px]">
+        {/*Project image */}
+        <div
+          className="relative w-full h-[230px] cursor-pointer"
+          onClick={() => window.open(live_version, "_blank")}
+        >
           <img
             src={image}
-            alt="project_image"
+            alt={`project_image - ${name}`}
             className="w-full h-full object-cover rounded-2xl"
           />
 
+          {/* Github icon */}
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
             <div
               onClick={() => window.open(source_code_link, "_blank")}
@@ -71,7 +77,7 @@ const Works = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} `}>My work</p>
-        <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
+        <h2 className={`${styles.sectionHeadText}`}>Mes Projets</h2>
       </motion.div>
 
       <div className="w-full flex">
@@ -79,11 +85,12 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          Following projects showcases my skills and experience through
-          real-world examples of my work. Each project is briefly described with
-          links to code repositories and live demos in it. It reflects my
-          ability to solve complex problems, work with different technologies,
-          and manage projects effectively.
+          Les projets suivants mettent en valeur mes compétences et mon
+          expérience à travers des exemples concrets de mon travail. Chaque
+          projet est brièvement décrit avec des liens vers GitHub et une version
+          "live". Ces projets reflètent ma capacité à résoudre des problèmes
+          complexes, à travailler avec différentes technologies et à gérer
+          efficacement des projets.
         </motion.p>
       </div>
 
@@ -96,4 +103,4 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "work");
