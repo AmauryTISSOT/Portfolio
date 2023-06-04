@@ -19,20 +19,19 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
+  ardoise,
+  botnot,
 } from "../assets";
 
 export const navLinks = [
   {
     id: "about",
-    title: "About",
+    title: "A propos",
   },
   {
     id: "work",
-    title: "Work",
+    title: "Projets",
   },
   {
     id: "contact",
@@ -80,38 +79,38 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+  // {
+  //   name: "Redux Toolkit",
+  //   icon: redux,
+  // },
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+  // {
+  //   name: "Node JS",
+  //   icon: nodejs,
+  // },
+  // {
+  //   name: "MongoDB",
+  //   icon: mongodb,
+  // },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
   {
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
 ];
 
 const experiences = [
@@ -198,25 +197,22 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Botnot",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Une application Web destinée aux clers de notaire. Permet à l'utilisateur de générer des checklistes interactives, des modèles d'email, des modèles de courrier et de consulter des API de l'administration française",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
         name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: botnot,
+    live_version: "https://github.com/AmauryTISSOT/botnot",
+    source_code_link: "https://github.com/AmauryTISSOT/botnot",
   },
   {
     name: "Job IT",
@@ -236,29 +232,31 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: "",
+    live_version: "#",
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Ardoise magique",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Une application web reproduisant le comportement du jouet \"Ardoise  magique\". Ce projet m'a permis d'acquérir des compétenses en HTML, CSS et Javascript.",
     tags: [
       {
-        name: "nextjs",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "css",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Javascript",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: ardoise,
+    live_version: "https://amaurytissot.github.io/ETCH-A-SKETCH/",
+    source_code_link: "https://github.com/AmauryTISSOT/ETCH-A-SKETCH",
   },
 ];
 
