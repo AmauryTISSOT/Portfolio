@@ -24,7 +24,7 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
+        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full min-h-[476px] relative"
       >
         {/*Project image */}
         <div
@@ -57,7 +57,8 @@ const ProjectCard = ({
           <p className="mt-2 text-secondary text-[14px]">{description}</p>
         </div>
 
-        <div className="mt-4 flex flex-wrap gap-2">
+        {/* tags */}
+        <div className="mt-4 flex flex-wrap gap-2 absolute bottom-5 left-5">
           {tags.map((tag) => (
             <p
               key={`${name}-${tag.name}`}
