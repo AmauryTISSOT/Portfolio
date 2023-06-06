@@ -71,10 +71,10 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+  // {
+  //   name: "TypeScript",
+  //   icon: typescript,
+  // },
   {
     name: "React JS",
     icon: reactjs,
@@ -209,9 +209,13 @@ const projects = [
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "react-router",
+        color: "green-text-gradient",
+      },
     ],
     image: botnot,
-    live_version: "https://github.com/AmauryTISSOT/botnot",
+    live_version: "https://amaurytissot.github.io/botnot/",
     source_code_link: "https://github.com/AmauryTISSOT/botnot",
   },
   {
@@ -250,7 +254,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "Javascript",
+        name: "javascript",
         color: "pink-text-gradient",
       },
     ],
