@@ -22,6 +22,7 @@ import {
   // threejs,
   ardoise,
   botnot,
+  calculator,
 } from "../assets";
 
 export const navLinks = [
@@ -168,33 +169,6 @@ const experiences = [
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
-
 const projects = [
   {
     name: "Botnot",
@@ -262,6 +236,28 @@ const projects = [
     live_version: "https://amaurytissot.github.io/ETCH-A-SKETCH/",
     source_code_link: "https://github.com/AmauryTISSOT/ETCH-A-SKETCH",
   },
+  {
+    name: "Calculatrice",
+    description:
+      "Une application web reproduisant une simple calculatrice. Ce projet de découvrir Javascript ES6",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript ES6",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: calculator,
+    live_version: "https://amaurytissot.github.io/Calculator/",
+    source_code_link: "https://github.com/AmauryTISSOT/Calculator",
+  },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };

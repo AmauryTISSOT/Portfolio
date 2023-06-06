@@ -28,7 +28,7 @@ import tesla from "./company/tesla.png";
 
 import botnot from "./botnot.png";
 import ardoise from "./ardoise.png";
-import tripguide from "./tripguide.png";
+import calculator from "./calculator.png";
 
 export {
   logo,
@@ -57,6 +57,6 @@ export {
   starbucks,
   tesla,
   botnot,
-  tripguide,
+  calculator,
   ardoise,
 };
