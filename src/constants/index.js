@@ -4,22 +4,22 @@ import {
   creator,
   web,
   javascript,
-  typescript,
+  // typescript,
   html,
   css,
   reactjs,
-  redux,
+  // redux,
   tailwind,
-  nodejs,
-  mongodb,
+  // nodejs,
+  // mongodb,
   git,
-  figma,
-  docker,
+  // figma,
+  // docker,
   meta,
   starbucks,
   tesla,
   shopify,
-  threejs,
+  // threejs,
   ardoise,
   botnot,
 } from "../assets";
@@ -199,7 +199,7 @@ const projects = [
   {
     name: "Botnot",
     description:
-      "Une application Web destinée aux clers de notaire. Permet à l'utilisateur de générer des checklistes interactives, des modèles d'email, des modèles de courrier et de consulter des API de l'administration française",
+      "Une application Web destinée aux clercs de notaire. Permet à l'utilisateur de générer des checklistes interactives, des modèles d'email, des modèles de courrier et de consulter des API de l'administration française",
     tags: [
       {
         name: "react",
