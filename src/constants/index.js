@@ -23,6 +23,11 @@ import {
   ardoise,
   botnot,
   calculator,
+  email,
+  githubWhite,
+  linkedin,
+  codewars,
+  restaurant,
 } from "../assets";
 
 export const navLinks = [
@@ -193,26 +198,21 @@ const projects = [
     source_code_link: "https://github.com/AmauryTISSOT/botnot",
   },
   {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    name: "Restaurant",
+    description: "Intégration d'un site internet d'un restaurant fictif",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
+        name: "css",
         color: "pink-text-gradient",
       },
     ],
-    image: "",
-    live_version: "#",
-    source_code_link: "https://github.com/",
+    image: restaurant,
+    live_version: "https://amaurytissot.github.io/restaurant/",
+    source_code_link: "https://github.com/AmauryTISSOT/restaurant",
   },
   {
     name: "Ardoise magique",
@@ -259,5 +259,27 @@ const projects = [
     source_code_link: "https://github.com/AmauryTISSOT/Calculator",
   },
 ];
+const contactData = [
+  {
+    link: "mailto: tissot.amaury@gmail.com",
+    name: "Email",
+    icon: email,
+  },
+  {
+    link: "https://github.com/AmauryTISSOT",
+    name: "GitHub",
+    icon: githubWhite,
+  },
+  {
+    link: "https://fr.linkedin.com/in/amaury-tissot-279a81222",
+    name: "Linkedin",
+    icon: linkedin,
+  },
+  {
+    link: "https://www.codewars.com/users/AmauryTISSOT",
+    name: "CodeWars",
+    icon: codewars,
+  },
+];
 
-export { services, technologies, experiences, projects };
+export { services, technologies, experiences, projects, contactData };
