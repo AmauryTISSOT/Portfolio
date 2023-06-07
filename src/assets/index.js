@@ -29,6 +29,12 @@ import tesla from "./company/tesla.png";
 import botnot from "./botnot.png";
 import ardoise from "./ardoise.png";
 import calculator from "./calculator.png";
+import restaurant from "./restaurant.png";
+
+import codewars from "./codewars.png";
+import email from "./email.svg";
+import githubWhite from "./github-mark-white.png";
+import linkedin from "./linkedin.png";
 
 export {
   logo,
@@ -59,4 +65,9 @@ export {
   botnot,
   calculator,
   ardoise,
+  codewars,
+  email,
+  githubWhite,
+  linkedin,
+  restaurant,
 };
