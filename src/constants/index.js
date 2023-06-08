@@ -28,6 +28,7 @@ import {
   linkedin,
   codewars,
   restaurant,
+  adminDashBoard,
 } from "../assets";
 
 export const navLinks = [
@@ -47,19 +48,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Développeur front-end junior",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Développeur back-end junior",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Passioné & curieux",
     icon: creator,
   },
 ];
@@ -217,7 +218,7 @@ const projects = [
   {
     name: "Ardoise magique",
     description:
-      "Une application web reproduisant le comportement du jouet \"Ardoise  magique\". Ce projet m'a permis d'acquérir des compétenses en HTML, CSS et Javascript.",
+      "Une application web reproduisant le comportement du jouet \"Ardoise  magique\". Ce projet m'a permis d'acquérir des compétenses en HTML, CSS et Javascript",
     tags: [
       {
         name: "html",
@@ -257,6 +258,23 @@ const projects = [
     image: calculator,
     live_version: "https://amaurytissot.github.io/Calculator/",
     source_code_link: "https://github.com/AmauryTISSOT/Calculator",
+  },
+  {
+    name: "Tableau de bord",
+    description: "Intégration d'un tableau de bord en HTML et CSS",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+    ],
+    image: adminDashBoard,
+    live_version: "https://amaurytissot.github.io/Admin-Dashboard/",
+    source_code_link: "https://github.com/AmauryTISSOT/Admin-Dashboard",
   },
 ];
 const contactData = [
