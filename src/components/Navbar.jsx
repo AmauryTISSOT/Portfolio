@@ -10,6 +10,7 @@ const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
+    // shade the navbar when scrolling
     const handleScroll = () => {
       const scrollTop = window.scrollY;
       if (scrollTop > 100) {
