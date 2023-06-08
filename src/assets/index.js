@@ -35,6 +35,7 @@ import codewars from "./codewars.png";
 import email from "./email.svg";
 import githubWhite from "./github-mark-white.png";
 import linkedin from "./linkedin.png";
+import adminDashBoard from "./adminDashBoard.png";
 
 export {
   logo,
@@ -70,4 +71,5 @@ export {
   githubWhite,
   linkedin,
   restaurant,
+  adminDashBoard,
 };
