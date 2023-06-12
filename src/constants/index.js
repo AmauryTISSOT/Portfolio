@@ -28,7 +28,7 @@ import {
   linkedin,
   codewars,
   restaurant,
-  adminDashBoard,
+  annuaire,
 } from "../assets";
 
 export const navLinks = [
@@ -199,6 +199,28 @@ const projects = [
     source_code_link: "https://github.com/AmauryTISSOT/botnot",
   },
   {
+    name: "Annuaire service pubic",
+    description:
+      "Une application web qui utilise une API fournie par l'administration française pour récupérer les informations de localisation d'un établissement public tel qu'une mairie, un tribunal, etc.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "react-router",
+        color: "green-text-gradient",
+      },
+    ],
+    image: annuaire,
+    live_version: "https://amaurytissot.github.io/Annuaire/",
+    source_code_link: "https://github.com/AmauryTISSOT/Annuaire",
+  },
+  {
     name: "Restaurant",
     description: "Intégration d'un site internet d'un restaurant fictif",
     tags: [
@@ -259,23 +281,23 @@ const projects = [
     live_version: "https://amaurytissot.github.io/Calculator/",
     source_code_link: "https://github.com/AmauryTISSOT/Calculator",
   },
-  {
-    name: "Tableau de bord",
-    description: "Intégration d'un tableau de bord en HTML et CSS",
-    tags: [
-      {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "green-text-gradient",
-      },
-    ],
-    image: adminDashBoard,
-    live_version: "https://amaurytissot.github.io/Admin-Dashboard/",
-    source_code_link: "https://github.com/AmauryTISSOT/Admin-Dashboard",
-  },
+  // {
+  //   name: "Tableau de bord",
+  //   description: "Intégration d'un tableau de bord en HTML et CSS",
+  //   tags: [
+  //     {
+  //       name: "html",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "green-text-gradient",
+  //     },
+  //   ],
+  //   image: adminDashBoard,
+  //   live_version: "https://amaurytissot.github.io/Admin-Dashboard/",
+  //   source_code_link: "https://github.com/AmauryTISSOT/Admin-Dashboard",
+  // },
 ];
 const contactData = [
   {

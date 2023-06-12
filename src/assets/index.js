@@ -30,6 +30,7 @@ import botnot from "./botnot.png";
 import ardoise from "./ardoise.png";
 import calculator from "./calculator.png";
 import restaurant from "./restaurant.png";
+import annuaire from "./annuaire.png";
 
 import codewars from "./codewars.png";
 import email from "./email.svg";
@@ -72,4 +73,5 @@ export {
   linkedin,
   restaurant,
   adminDashBoard,
+  annuaire,
 };
