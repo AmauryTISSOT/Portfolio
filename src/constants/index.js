@@ -29,6 +29,7 @@ import {
   codewars,
   restaurant,
   annuaire,
+  adminDashBoard,
 } from "../assets";
 
 export const navLinks = [
@@ -281,23 +282,23 @@ const projects = [
     live_version: "https://amaurytissot.github.io/Calculator/",
     source_code_link: "https://github.com/AmauryTISSOT/Calculator",
   },
-  // {
-  //   name: "Tableau de bord",
-  //   description: "Intégration d'un tableau de bord en HTML et CSS",
-  //   tags: [
-  //     {
-  //       name: "html",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "green-text-gradient",
-  //     },
-  //   ],
-  //   image: adminDashBoard,
-  //   live_version: "https://amaurytissot.github.io/Admin-Dashboard/",
-  //   source_code_link: "https://github.com/AmauryTISSOT/Admin-Dashboard",
-  // },
+  {
+    name: "Tableau de bord",
+    description: "Intégration d'un tableau de bord en HTML et CSS",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+    ],
+    image: adminDashBoard,
+    live_version: "https://amaurytissot.github.io/Admin-Dashboard/",
+    source_code_link: "https://github.com/AmauryTISSOT/Admin-Dashboard",
+  },
 ];
 const contactData = [
   {
